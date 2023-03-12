@@ -1,7 +1,7 @@
 ## A simple library for getting favicons from any site. Uses the Allorigins API to retrieve the site's HTML.
 ### How to use
 - Connect grabIcons.js to your project
-You can <a href="https://cdn.jsdelivr.net/gh/ghtx280/faviconGrabber@main/grabIcons.js" download>download</a> it or use cdn 
+You can <a href="https://raw.githubusercontent.com/ghtx280/faviconGrabber/main/grabIcons.js" download="true">download</a> it or use cdn 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/ghtx280/faviconGrabber@main/grabIcons.js"></script>
 ```
