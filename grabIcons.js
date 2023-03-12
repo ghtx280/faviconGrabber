@@ -24,6 +24,8 @@ function grabIcons(url) {
           let href = e.getAttribute('href')
           return href.startsWith('/') 
           ? loc.origin + href
+          : href.startsWith('http') 
+          ? href
           : loc.origin + (
             loc.pathname.endsWith('/') ? loc.pathname : (loc.pathname + '/')
           ) + href
